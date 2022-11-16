@@ -1,0 +1,68 @@
+body {
+    background-color: ghostwhite;
+}
+
+.main-container {
+    /* border: 1px solid gray; */
+    box-shadow: 0px 4px 8px 0px lightgrey;
+    width: 19%;
+    height: 440px;
+    margin: 40px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+    /* background-color: white; */
+    
+}
+
+.display-screen {
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    height: 175px;
+    justify-content: end;
+}
+
+input {
+    text-align: end;
+    margin: 100px 2px;
+    font-size: large;
+    padding: 0px 8px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+}
+
+.keypad {
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    margin: 5px 8px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: midnightblue;
+}
+
+.btn-dark-mode {
+    color: white;
+}
+.btn-dark-mode:hover{
+    color: lightblue;
+}
